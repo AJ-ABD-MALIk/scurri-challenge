@@ -17,5 +17,5 @@ Result:
   "validation_status": "Valid Postcode"
 }
 
-Test:
+For unit Tests:
 - run unit_tests.py
