@@ -31,7 +31,7 @@ def api_validate():
 
     postcode_format_result = format_postcode(postcode)
     if postcode_format_result['format_status'] is True:
-        validation_result = validate_postcode(postcode_format_result['postcode'])
+        validation_result = validate_postcode(postcode_format_result['formatted_postcode'])
         postcode_format_result['validation_status'] = validation_result
         
     return jsonify(postcode_format_result)
