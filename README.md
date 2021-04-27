@@ -16,3 +16,6 @@ Result:
   "postcode": "E C1A 1BB", 
   "validation_status": "Valid Postcode"
 }
+
+Test:
+- run unit_tests.py
