@@ -1,4 +1,7 @@
 # scurri-challenge
+Program that prints the numbers from 1 to 100:
+- run rename_multiples.py
+
 To launch the api: 
 - run app.py
 - browse to http://localhost:5000/
